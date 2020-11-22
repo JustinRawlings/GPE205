@@ -70,7 +70,6 @@
     <Compile Include="Assets\Scripts\Tank\TankMovement.cs" />
     <Compile Include="Assets\Scripts\Tank\TankShooting.cs" />
     <Compile Include="Assets\Scripts\UI\UIDirectionControl.cs" />
-    <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <None Include="Assets\Tanks!_Third-PartyNotice.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/jrawl/Documents/GitHub/GPE205/JRawlingsUATTanks/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
