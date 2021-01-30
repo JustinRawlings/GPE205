@@ -24,6 +24,7 @@ public class TankShooter : MonoBehaviour
 
     }
 
+    //supposed to shoot the cannon ball. Still needs work.
     public void Shoot(GameObject cannonBallPrefab)
     {
         

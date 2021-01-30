@@ -12,6 +12,7 @@ public class CannonBall : MonoBehaviour
     public int attackDamage;
     private TankData shooter;
 
+    //References attacker and shows the shooter of the attack and the attack damage
     private void OnCollisionEnter(Collision collision)
     {
         Attack attackData = new Attack(shooter: shooter, attackDamage);
@@ -27,6 +28,7 @@ public class CannonBall : MonoBehaviour
         tf.position += tf.forward * speed * Time.deltaTime;
     }
 
+    //When the cannon ball hits another object, the shell is destroyed.
     private void OnTriggerEnter(Collider other)
     {
         Destroy(gameObject);
